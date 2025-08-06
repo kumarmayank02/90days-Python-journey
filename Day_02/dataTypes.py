@@ -64,12 +64,15 @@ str: "Hello World!!!", "Python Programming"
 Boolean data consists of values True or False.
 
 (4). Sequenced data: list, tuple
-list: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
+list: A list is an ordered collection of data with elements separated by a comma and enclosed 
+within square brackets. Lists are mutable and can be modified after creation.
 
-uple: A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses. Tuples are immutable and can not be modified after creation.
+uple: A tuple is an ordered collection of data with elements separated by a comma and enclosed within
+parentheses. Tuples are immutable and can not be modified after creation.
 
 (5). Mapped data: dict
-dict: A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets.'''
+dict: A dictionary is an unordered collection of data containing a key:value pair. 
+The key:value pairs are enclosed within curly brackets.'''
 
 
 
