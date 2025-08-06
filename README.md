@@ -1,2 +1,2 @@
-# python-learning-journey
-Python programs I’m learning and building during my university classes.
+# 90days-python-journey
+My 90 days journey to master Python with practical code, daily progress, and real-world projects.
