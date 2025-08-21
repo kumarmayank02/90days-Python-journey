@@ -1,0 +1,72 @@
+What is translator?
+Translator is software, which converts instructions of one language to another language.
+
+1. Interpreter
+2. Compiler
+
+What is program?
+A program is set of instructions.
+
+What is source program?
+A program written in high level programming language is called source program.
+
+ 
+
+
+What is interpreter?
+Interpreter is a translator, which translates and executes instructions line by line.
+
+ 
+
+
+
+Interpreter stops translating and executing, if there is an error in one line. Interpreted code executed by machine directly. 
+Interpreter displays one error at a time. Debugging program is complex.
+
+Scripting languages uses interpreter as a translator.
+
+What is compiler?
+Compiler is a translator, which translates whole program and execute.
+
+
+
+ 
+
+
+Compiler display all error exist within program. If there is error within program, compiler not generates executable code/file.
+
+
+
+What is scripting language?
+A scripting language is one type of programming language which is used for writing scripts.
+
+What is a script?
+A script is a small program executed within another program.
+Scripts are embedded within another program.
+Scripts are used for automation.
+
+Example: Java script, VBscript, typescript, Perl, PHP,..
+ 
+A script cannot execute individually. It is embedded within another program and executed.
+A programming language can be used as a scripting language. 
+Scripting language cannot be used as a programming language.
+
+Programming paradigm
+A programming paradigm defines a set of rules and regulations for writing programs.
+1.	Procedural Oriented Programming (POP)
+2.	Modular Oriented Programming (MOP)
+3.	Object Oriented Programming (OOP)
+4.	Functional Oriented Programming (FOP)
+
+
+C is a Procedural oriented programming language
+C++ is Object Oriented Programming Language
+Java is Object Oriented Programming Language
+Python is Object Oriented Programming Language
+C#.Net is Object Oriented Programming Language
+
+
+
+
+
+
