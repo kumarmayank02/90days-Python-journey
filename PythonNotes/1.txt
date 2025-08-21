@@ -1,0 +1,67 @@
+Chapter-1
+
+Topics
+======
+Introduction to Languages
+●	What is Language?
+●	Types of Programming Languages
+●	Translators
+o	Interpreter
+o	Compiler
+●	Scripting Language
+●	Difference between Programming Language and Scripting Language
+●	Programming Paradigms
+o	Procedural Oriented Programming
+o	Object Oriented Programming
+
+What is language?
+A language is software, which provides set of instructions for developing software’s.
+Language acts as mediator between user and computer.
+
+Computer languages are classified into two categories.
+1.	Low Level Programming Languages
+2.	High Level Programming Languages
+
+Low Level Programming Languages
+Computer understandable languages are called low level programming languages.
+
+1. Machine Language
+2. Assembly Language
+
+Machine Language
+Machine language instructions are represented in 0’s and 1’s.
+Computer understands only one language called machine language.
+Machine language instructions are machine dependent (OR) hardware dependent.
+
+ 
+Machine language instructions are not easy to understand.
+Machine Language does not require any translator.
+
+Assembly Language
+Assembly language is low level language, but instructions are not given in 0’s and 1’s but instructions are represented in mnemonics (verbs).
+
+ML			AL
+10101111   MOVE
+
+ 
+
+What is assembler?
+Assembler is a translator used by assembly language for converting assembly language instructions into machine language.
+
+Low level languages are non portable or hardware dependent.
+
+
+High Level Programming Languages
+All high level programming languages are in simple English. 
+High level programming languages are hardware independent.
+Using high level programming languages, programmer can develop and run applications on different hardware architecture.
+
+Example: C,C++,COBOL,PASCAL,Java,Python,.Net,JavaScript
+
+What is translator?
+Translator is software, which convert instructions of one language to another language.
+
+1. Interpreter
+2. Compiler
+
+
