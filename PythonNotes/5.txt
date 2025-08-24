@@ -1,0 +1,59 @@
+Python Features
+Python features are nothing but facilities provided by python language to software developers.
+
+1.	Easy or Simple
+2.	Free and Open Source
+3.	Large Standard Libraries
+4.	Platform Independent 
+5.	Dynamic
+6.	Portable
+7.	High Level
+8.	Object Oriented
+9.	Extensible
+10.	Embeddable
+11.	Robust
+
+Easy or Simple
+Python is easy or simple because it provides the following features which makes python is easy or simple.
+1.	Python Syntax is Simple
+2.	Python is user/programmers friendly programming language, It allows you to write programs using multiple programming paradigms.
+3.	Less Coding, python provides large standard libraries, which provides predefine code.
+4.	Automatic memory management. In application development memory managed consist of two things
+a.	Allocation of memory
+b.	De-Allocation of memory
+In python memory management is automatic; python provides a service called garbage collection.
+
+Free and Open Source
+Python software is free to download.
+Python software can be downloaded from www.python.org
+
+
+What is open source?
+Python language is written in “C” language. 
+Python software source code is given to public. If source code is given to public, it can modified and develop new languages, frameworks.
+
+Large Standard Libraries
+Python provides large number of libraries. A library is predefined program, with pre-written functionality. Libraries make application development easy.
+Python libraries are available in website or repository called,
+
+www.pypi.org
+
+pypi stands python package index
+python libraries are divided into two,
+
+1.	Modules
+2.	Packages
+
+A module is python program.
+A collection of module is called packages.
+
+Platform Independent
+Programming languages are two types
+1.	Platform dependent languages
+2.	Platform independent languages
+
+What is platform?
+Platform is software, which provides development environment and execution environment. Operating System is called platform. Operating system acts as an interface between software and hardware.
+
+Platform dependent languages
+C,C++ are called platform dependent language.
