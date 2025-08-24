@@ -1,0 +1,64 @@
+Introduction to Python
+●	What is Python?
+●	Applications of Python
+●	History of Python
+●	Python Features
+●	Limitations of Python
+●	Python Versions
+●	Python Implementations
+
+What is Python?
+Python is a programming language.
+Python is a general purpose programming language. This language is used for developing any type of software or application.
+Python is high level programming language. All high level languages are in simple English. High level languages are portable. Portability allows developing and running applications on different hardware architecture.
+Python is multi paradigm programming language. A programming paradigm defines set of rules and regulations for writing program. Python is object oriented programming language and also supports other programming paradigms (POP, MOP, FOP, SOP).
+
+“Python is general purpose, high level and multi paradigm programming language”
+
+Applications of Python
+In real time or software companies uses python for developing which type of software’s or applications or projects.
+
+For developing software or project a person required 2 things
+1.	Python
+2.	Libraries or Framework
+
+What is library?
+A library is set of predefined programs with pre-written functionality.
+Python provides huge set of libraries.
+A language uses libraries for developing different types of applications.
+
+What is Framework?
+Framework is software which provides libraries.
+Framework provides development environment and execution environment. 
+
+1.	Web Applications or Internet Applications
+2.	Mobile Applications
+3.	Web Scraping
+4.	Cloud Computing (AWS) or AWS Data Engineering
+5.	Data Science or BA or DA
+6.	Machine Learning (AI)
+7.	Testing (Selenium)
+8.	Automation 
+9.	Games
+10.	Embedded Application
+11.	Cyber Security
+12.	Audio and Video Processing
+13.	Image Processing
+14.	Language Development
+15.	Operating Systems
+16.	CAD/CAM
+17.	Block Chain
+18.	DEVOPS with Python
+
+
+Python History
+
+
+
+
+
+
+
+
+
+
