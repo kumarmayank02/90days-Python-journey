@@ -1,0 +1,82 @@
+High Level
+Python is high level programming language and all high level programming language is in simple English.
+
+Portable
+Portability allows developing and running python program on any device or hardware architecture.
+
+Embeddable and Extensible
+Using python code inside other programming languages is called embeddable.
+Using other languages code within python is called extensible
+
+Robust
+Robust means strong
+Python is very strong in error checking.
+Python provides an exception handling, using which a program can handle runtime error to avoid abnormal termination program.
+
+
+Python Software
+Python software is free to download.
+
+www.python.org
+
+ 
+
+ 
+
+How to verify python software is installed or not?
+
+1.	Open command prompt
+a.	Search  CMD
+2.	 
+
+
+Python software provides
+1.	Editor/IDE  IDLE (Integrated Development Learning Environment) is a code editor provided by python software
+2.	Python Virtual Machine (PVM)
+3.	Python Shell
+4.	Standard Libraries Or Language related libraries but application specific libraries does not comes with python software.
+5.	Tools (Python Library Installer (PIP), Python Debugger,…)
+
+IDE’s
+1.	Pycharm
+2.	Spyder
+3.	VSCode
+4.	Google Collab
+5.	Jupiter Notebook
+
+Python Distributions
+Python distribution is python software bundle which consists of,
+1.	Python software
+2.	Application Specific Libraries
+3.	Editors or IDE
+
+
+•	ActiveState ActivePython (commercial and community versions, including scientific computing modules)
+•	pythonxy (Scientific-oriented Python Distribution based on Qt and Spyder)
+•	winpython (WinPython is a portable scientific Python distribution for Windows)
+•	Conceptive Python SDK (targets business, desktop and database applications)
+•	Enthought Canopy (a commercial distribution for scientific computing)
+•	PyIMSL Studio (a commercial distribution for numerical analysis – free for non-commercial use)
+•	Anaconda Python (a full Python distribution for data management, analysis and visualization of large data sets)
+•	eGenix PyRun (a portable Python runtime, complete with stdlib, frozen into a single 3.5MB - 13MB executable file)
+
+Python Implementations
+IronPython (Python running on .NET)
+Jython (Python running on the Java Virtual Machine)
+PyPy (A fast python implementation with a JIT compiler)
+Stackless Python (Branch of CPython supporting microthreads)
+MicroPython (Python running on micro controllers)
+
+
+
+
+Python working modes
+Python working modes are two,
+1.	Interactive mode
+2.	Scripting mode/programming mode
+
+
+
+
+
+
