@@ -1,0 +1,60 @@
+Platform Independent
+Programming languages are two types
+1.	Platform dependent languages
+2.	Platform independent languages
+
+What is platform?
+Platform is software, which provides development environment and execution environment. Operating System is called platform. Operating system acts as an interface between software and hardware.
+
+Platform dependent languages
+C,C++ are called platform dependent language.
+In platform dependent languages, development environment and execution environment must same.
+
+Why C,C++ are called platform dependent?
+1.	C,C++ compilers generate native code (OR) binary code respective to operating system. This code is platform (OR) OS dependent.
+ 
+
+2.	C,C++ programming languages data representation is not same for all operating systems.
+
+ 
+
+
+Problem with platform dependent languages
+1.	Need to develop same application for every operating system
+2.	Increases development cost
+
+Platform independent language
+In platform independent languages development environment and execution environment may not be same.
+
+ 
+What is byte code?
+Compiled code of python source program is called byte code.
+Byte code is python virtual machine code (PVM).
+Byte code is platform independent code.
+Byte code is not 0’s and 1’s. Byte code collection of mnemonics.
+What is PVM?
+PVM stands for Python Virtual Machine. It is software provided by python. PVM having translator called interpreter, which translate byte code in executable machine binary code.
+
+Data representation in python is same for all operating systems.
+Advantage of platform independent languages are write once run anywhere or compile once and run anywhere.
+
+
+Dynamic
+Programming languages are two types
+1.	Statically typed programming languages
+2.	Dynamically typed programming languages
+
+C,C++,Java,C#.net are called statically typed programming languages.
+In statically programming languages, variables are created with data type (OR) variables are bind with one data type (OR) variables declaration is required.
+
+Python is a dynamically typed programming language, In python there is no variable declaration. Variables in python not bind with one data type. Its type changes based on value assigned.
+
+Object Oriented Programming
+Object oriented is not language; it is a programming paradigm which defines set of rules and regulations for writing programs. All modern language uses OOP for developing applications or programs. It also supports other programming paradigm.
+
+High Level
+Portable
+Embeddable
+Extensible
+Robust
+
