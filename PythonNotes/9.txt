@@ -1,0 +1,96 @@
+Programming Fundamentals
+
+1.	Character set of Python
+2.	Tokens
+a.	Keywords
+b.	Identifiers
+c.	Literals
+d.	Data Types
+e.	Operators
+
+
+Character set of python
+
+Character set defines encoding and decoding standard used by python programming language.
+Character set defines set of characters supported by python programming language.
+
+There are two encoding standards supported by python language
+1.	ASCII   American Standard Code for information Interchange
+2.	UNICODE  Universal code
+
+ASCII support 256 characters 0-255, these 256 characters includes
+Characters in English (a-z,A-Z), Digits (0-9), Sepcial characters (+,-,*,/,%#!,…)
+
+UNICODE super set of ASCII, It support characters of ASCII and also having more number of characters support from other languages.
+
+UNICODE support more than 1,00,000 characters. 
+
+Python and all  modern languages support ascii and Unicode character set.
+
+ 
+
+Uppercase Letters A – 65
+			    B -66
+			   …
+			   Z – 90
+Lowercase Letters a -97
+			     b-98
+			     …
+                               z-122
+
+ 
+
+ 
+
+Tokens
+A token is smallest individual unit within program.
+Without tokens a statement cannot created.
+
+1.	Keywords
+2.	Identifiers
+3.	Literals
+4.	Data types
+5.	Operators
+
+
+Keywords
+Keywords are language related words. The meaning of keyword is reserved by python translator. 
+Each keyword is used to perform specific operation.
+
+
+How to find keywords of python?
+
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+How many keywords are in python?
+>>> len(keyword.kwlist)
+35
+
+Python 3.12 version supports 35 keywords.
+Python is case-sensitive language; it finds the difference between uppercase and lowercase.
+
+Soft Keywords
+Soft keywords can be used as user defined word or identifiers. 
+
+>>> keyword.softkwlist
+['_', 'case', 'match', 'type']
+
+Identifiers
+Identifier is programmer defined words or user defined words. Identifier is used to identify programming elements.
+
+1.	Variable names
+2.	Function names
+3.	Data type names
+4.	Program name / Module name
+5.	Package name
+
+Identifier is a single word, this word is created using alphabets (a-z, A-Z), digits (0-9) and one special character (_)
+
+
+
+
+
+
+

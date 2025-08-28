@@ -1,0 +1,79 @@
+Python working modes
+Python working modes are two,
+1.	Interactive mode
+2.	Scripting mode/programming mode
+
+Interactive mode
+In interactive mode python developer or programmer works with python shell.
+Python shell is command line interface or python shell is REPL tool
+REPL stands for Read-Evaluate-Print-Loop.
+Python shell is single line command line interface.
+In interactive mode programmer cannot develop or write programs.
+
+What is use of interactive mode?
+1.	Configurations
+2.	Testing command executed properly or not
+3.	Learners starts learning giving commands in interactive mode
+
+How to work in interactive mode?
+1.	Without using Editor/IDE
+2.	Using IDE/Editor
+
+How to work in interactive mode without using editor?
+1.	Open Command prompt Or DOS Environment
+2.	 
+3.	
+ 
+
+Working with interactive mode using IDE or Editor
+Every editor allows working in two modes.
+1.	Interactive mode
+2.	Scripting mode or Programming mode
+
+	Open IDLE
+	Search  IDLE
+ 
+
+
+ 
+
+Programming Mode or Scripting Mode
+In programming mode, python developer creates a program or file by storing all the instructions. This file or program can be executed one or more than one time. Every python program is saved with extension .py (source file or source program).
+Every python program is called module.
+
+1.	Writing python program in non python editor (Notepad)
+
+	Open Notepad
+	Type program and save with extension .py
+ 
+	Open command prompt
+	Search  cmd
+
+ 
+
+ 
+
+2.	Writing python program using editor (IDLE)
+
+	Open IDLE
+	Select File  New File
+	Type Python Program
+ 
+	Save Program  File  Save
+	Run Program  Run  Run Module
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
