@@ -1,0 +1,99 @@
+Python is pure object oriented programming language. Every data type in python is a class and data is represented as objects.
+
+What is class?
+A class represents data type.
+Class is used to allocate memory for data or object.
+Class defines structure of object.
+Class is a blue print of object
+Class defines properties and behavior of object.
+Properties defines the values hold by object
+Behavior defines the functionality of object
+
+What is object?
+An object is instance of a class
+Allocating memory for members/properties of the class is process of creating object.
+Object is an implementation of a class.
+
+ 
+ 
+
+
+
+ 
+Python is a dynamically typed programming language, variables are not bind with specific data type or variables are not declared with any data type.
+
+Statically Typed Programming Language
+
+int a;
+a=10;
+a=1.5; Error
+
+
+
+	Dynamically typed programming language
+
+a=10
+type(a) 🡪 int
+a=1.5
+type(a) 🡪 float
+
+What is variable?
+Variable is an identifier, which is used to identify value/object.
+Variable is named memory location.
+
+int data type
+
+int data type/class is used to construct integer objects.
+Int data type is used by python virtual machine for allocating memory for integer value/literal.
+Integer is a numeric value without fractional part.
+
+Eg: 1, 560, 5789
+
+>>> a=123
+>>> type(a)
+<class 'int'>
+>>> a
+123
+>>> b=560
+>>> type(b)
+<class 'int'>
+>>> b
+560
+
+In python integer values are represented in 4 formats
+1.	Decimal 
+2.	Octal
+3.	Hexadecimal
+4.	Binary
+
+Number system define set of rules and regulations for representing numbers in computer science.
+
+Size of int data type is dynamic. The memory is allocated based value size. Int data type size is unlimited.
+
+>>> x=9999999999999999999999999999999999999999999999999999999999999999
+>>> x
+9999999999999999999999999999999999999999999999999999999999999999
+>>> import sys
+>>> sys.getsizeof(x)
+56
+>>> y=100
+>>> sys.getsizeof(y)
+28
+>>> z=8999999999999999999
+>>> sys.getsizeof(z)
+36
+
+Decimal Integer
+An integer value with base 10 is called decimal integer.
+This integer is created using all the digits from 0-9.
+This integer is not prefix with 0
+This integer is prefix with + or –
+Default representation of integer values are in decimal format.
+
+>>> a=0123
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+
+
+
+
+

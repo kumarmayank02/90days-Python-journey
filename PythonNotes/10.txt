@@ -1,0 +1,153 @@
+Identifiers
+Identifier is programmer defined words or user defined words. Identifier is used to identify programming elements.
+
+1.	Variable names
+2.	Function names
+3.	Data type names
+4.	Program name / Module name
+5.	Package name
+
+Identifier is a single word, this word is created using alphabets (a-z, A-Z), digits (0-9) and one special character (_)
+
+1.	Identifier should not be keyword
+
+>>> a=10
+>>> a
+10
+>>> rollno=1
+>>> rollno
+1
+>>> pass=100
+SyntaxError: invalid syntax
+>>> break=1
+SyntaxError: invalid syntax
+>>> class=5
+SyntaxError: invalid syntax
+>>> Pass=1
+>>> Pass
+1
+
+2.	Identifier can be defined in uppercase or lowercase. Python is a case sensitive language, which finds the difference between uppercase and lowercase
+
+>>> A=10
+>>> a=20
+>>> A
+10
+>>> a
+20
+
+3.	There should not be any space between identifier
+
+>>> student number=1
+SyntaxError: invalid syntax
+
+4.	Identifier is allowed only one special character _
+
+amt$=10
+SyntaxError: invalid syntax
+$amt=1
+SyntaxError: invalid syntax
+>>> a*mt=1
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+>>> stud_rollno=1
+>>> stud_rollno
+1
+>>> _=1
+>>> _
+1
+>>> __x__=10
+>>> __x__
+10
+
+5.	Identifier should start with alphabet or _ but should not start with digit
+
+>>> number1=100
+number2=200
+>>> number1
+100
+>>> number2
+200
+>>> 3number=300
+SyntaxError: invalid decimal literal
+>>> _number=400
+>>> _number
+400
+
+6.	Length of identifier is unlimited
+
+>>> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=10
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+10
+>>> bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb=100
+>>> bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+100
+>>> a=10
+>>> b=20
+>>> a+b
+30
+
+Naming Conventions
+
+Naming Conventions are nothing but naming rules, this naming convention makes application easy to understand.
+
+1. pascal case
+2. snake case
+3. camelcase
+
+Pascal case is used to define class names.
+	Example: Student, Employee, CurrentAccount
+Snake case is used to create variables
+	Example: rollno, employee_no,account_no,otp_no
+Camel case is used to define functions
+	Example: mean(),mode(),median(),login(),deposit(),createAccount()
+
+Data types and Literals
+
+Data types
+
+Data types are used to reserve memory for data/literals. 
+Python data types are classified into 2 categories
+1.	Scalar Data types
+2.	Collection Data types
+
+Scalar data types are used to allocate memory for one value or single value.
+
+1.	int
+2.	float
+3.	complex
+4.	bool
+5.	NoneType
+
+Collection data types are used to allocate memory for more than one value. Collection data types are classified into 3 categories
+
+1.	Sequences
+a.	List
+b.	Tuple
+c.	Range
+d.	Str
+e.	Bytes
+f.	Bytearray
+2.	Sets
+a.	Set
+b.	Frozenset
+3.	Mapping
+a.	Dict
+These 14 data types are called python standard data types
+
+Literals
+Literals are values which never changed.
+Python literals are classified into two categories
+1.	Numeric
+2.	Non-Numeric
+Numeric : integer, float, complex
+Non Numeric: str, None, bool
+
+Python is pure object oriented programming language. Every data type in python is a class and data is represented as objects.
+
+
+
+
+
+
+
+
