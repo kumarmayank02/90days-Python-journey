@@ -1,0 +1,119 @@
+Decimal Integer
+An integer value with base 10 is called decimal integer.
+This integer is created using all the digits from 0-9.
+This integer is not prefix with 0
+This integer is prefix with + or –
+Default representation of integer values are in decimal format.
+
+>>> a=0123
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+
+ 
+Integer is allowed only one special character _.
+Grouping digits are done using _
+_ cannot use as a prefix or suffix
+
+>>> amt1=500
+>>> amt1
+500
+>>> type(amt1)
+<class 'int'>
+>>> amt2=1_500
+>>> amt2
+1500
+>>> amt3=1_50_000
+>>> amt3
+150000
+>>> a=10_
+SyntaxError: invalid decimal literal
+>>> b=_10
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    b=_10
+NameError: name '_10' is not defined
+
+Octal Integer
+An integer value with base 8 is called octal integer.
+Octal integer is created using digits range from 0-7.
+This integer is prefix with 0o or 0O
+
+Applications of octal integers
+1.	Assembly Language/Embedded Applications
+2.	Representing an integer which does not allows digits 8 and 9
+
+Example:
+>>> a=0o45
+>>> type(a)
+<class 'int'>
+>>> b=0o89
+SyntaxError: invalid digit '8' in octal literal
+>>> c=0o278
+SyntaxError: invalid digit '8' in octal literal
+>>> b=0o35
+>>> b
+29
+>>> c=0o125
+>>> c
+85
+
+ 
+
+Hexadecimal Integer
+An integer value with base 16 is called hexadecimal integer.
+This integer is created using 16 digits 0-9,a-f/A-F
+This integer is prefix with 0x or 0X.
+Larger integer values are represented in hexadecimal format.
+
+Applications of hexadecimal integer
+1.	Color Values
+2.	Unicode Values
+3.	Memory Addresses
+
+>>> n1=0xa
+>>> n1
+10
+>>> n2=0xb
+>>> n2
+11
+>>> n3=0xf
+>>> n3
+15
+>>> n4=0xg
+SyntaxError: invalid hexadecimal literal
+>>> n5=0xabc
+>>> n5
+2748
+>>> n6=0xff
+>>> n6
+255
+>>> n6=0xbad
+>>> n6
+2989
+
+ 
+
+
+Binary Integer
+An integer value with base 2 is called binary integer.
+Binary integer is created using two digits 0 and 1
+Binary integer is prefix with 0b or 0B
+
+
+Applications of binary integer
+1.	Internal data representation
+2.	Machine language
+3.	Image Processing
+4.	Audio or video processing
+
+>>> n1=0b10
+>>> n1
+2
+>>> n2=0b1010
+>>> n2
+10
+>>> n3=0b1012
+SyntaxError: invalid digit '2' in binary literal
+
+
+
+
