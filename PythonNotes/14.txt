@@ -1,0 +1,136 @@
+String
+
+String is non numeric data type.
+String is a collection of characters. These characters can be alphabets, digits or special characters.
+A string which consists of only alphabets is called alphabetic string.
+A string which consists of alphabets or digits is called alphanumeric string.
+String is a collection type or sequence type.
+String is an immutable sequence data type.
+
+In python string is represented,
+1.	Within single quotes
+2.	Within double quotes
+3.	Within triple single quotes or double quotes
+
+Within single quotes, python programmers represent single line string.
+Within single quotes, we can insert double quotes.
+
+Example:
+>>> s1='python'
+>>> s1
+'python'
+>>> s2='python 3.12'
+s2
+>>> 'python 3.12'
+>>> s3='45'
+>>> n1=45
+>>> n1+10
+55
+>>> s3+10
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    s3+10
+TypeError: can only concatenate str (not "int") to str
+>>> s4='python is a
+SyntaxError: incomplete input
+>>> s4='python is "high" programming language'
+>>> print(s4)
+python is "high" programming language
+>>> s5='python is a 'high level' programming language'
+SyntaxError: invalid syntax
+
+Within double quotes we can represent single line string
+
+>>> str1="python"
+>>> print(str1)
+python
+>>> str2="python 3.12"
+>>> print(str2)
+python 3.12
+>>> str3="45"
+>>> print(str3)
+45
+>>> str4="python is high level
+SyntaxError: incomplete input
+
+Within double quotes we can insert single quotes
+
+>>> str5="python is 'high level' programming language"
+>>> print(str5)
+python is 'high level' programming language
+
+Within triple single quotes or double quotes we can represent multiline string.
+
+>>> rollno=101
+>>> name="nk"
+>>> course="FSP"
+>>> description=''' Full Stack Python consists of 5 Modules
+Module1: Python
+Module2: Database
+Module3: UI
+Module4: Backend
+Module5: Tools'''
+>>> print(rollno)
+101
+>>> print(name)
+nk
+>>> print(course)
+FSP
+>>> print(description)
+ Full Stack Python consists of 5 Modules
+Module1: Python
+Module2: Database
+Module3: UI
+Module4: Backend
+Module5: Tools
+>>> str1=""" Python is
+... high level, multiparadigm
+... programming language"""
+>>> print(str1)
+ Python is
+high level, multiparadigm
+programming language
+
+
+Comments in Python
+
+In python comments are created using # (pound sign)
+It is used to create single line comment.
+
+test1.py
+# This is my first program in python
+
+print("Hello") # this statement is used to print a message Hello
+
+Output:
+Hello
+
+test2.py
+a=''' This is my first python program '''
+
+print("Hello")
+print(a)
+Output:
+Hello
+This is my first python program
+
+What is indent?
+Space given at the beginning of the statement is called indent.
+Indent is used to create block.
+
+ 
+
+Every program required 3 things,
+1.	Output
+2.	Input
+3.	Process
+
+print()
+print() is a predefined function in python.
+print() is a standard output function, this function is used to print data or information on console/monitor.
+
+Print function required input to print data or information.
+Print function is having 3 inputs
+1.	data/values
+2.	sep
+3.	end
