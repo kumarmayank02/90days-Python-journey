@@ -1,0 +1,159 @@
+Example:
+# Write a program to print sum of integers
+# input two integers from keyboard
+
+
+n1=input(&quot;Enter First Value &quot;)
+n2=input(&quot;Enter Second Value &quot;)
+n3=n1+n2
+print(f&#39;sum of {n1} and {n2} is {n3}&#39;)
+
+
+Output:
+Enter First Value 10
+Enter Second Value 20
+sum of 10 and 20 is 1020
+How to see content of module/library?
+&gt;&gt;&gt; import calendar
+&gt;&gt;&gt; dir(calendar)
+[&#39;APRIL&#39;, &#39;AUGUST&#39;, &#39;Calendar&#39;, &#39;DECEMBER&#39;, &#39;Day&#39;, &#39;EPOCH&#39;,
+&#39;FEBRUARY&#39;, &#39;FRIDAY&#39;, &#39;HTMLCalendar&#39;, &#39;IllegalMonthError&#39;,
+&#39;IllegalWeekdayError&#39;, &#39;IntEnum&#39;, &#39;JANUARY&#39;, &#39;JULY&#39;, &#39;JUNE&#39;,
+&#39;LocaleHTMLCalendar&#39;, &#39;LocaleTextCalendar&#39;, &#39;MARCH&#39;, &#39;MAY&#39;, &#39;MONDAY&#39;,
+&#39;Month&#39;, &#39;NOVEMBER&#39;, &#39;OCTOBER&#39;, &#39;SATURDAY&#39;, &#39;SEPTEMBER&#39;,
+&#39;SUNDAY&#39;, &#39;THURSDAY&#39;, &#39;TUESDAY&#39;, &#39;TextCalendar&#39;,
+Type Conversion Function or Type Casting
+Type conversion is a process of converting one type of object to another
+type.
+1. Int()
+2. Float()
+3. Complex()
+4. Bool()
+5. Str()
+All these are in-built functions and available in default module imported by
+any python program called __builtins__
+int() function
+This function is used to create integer object (OR) this function performs
+the following conversions.
+
+1. Int to int
+2. Float to int
+3. String to int
+4. Bool to int
+Syntax1: int(value)
+Syntax2: int(value,base=10)
+Syntax-1 is used to convert float,int,bool to integer object
+Syntax-2 is used to convert string to integer object
+
+Example:
+# Write a program to print sum of integers
+# input two integers from keyboard
+
+n1=input(&quot;Enter First Value &quot;)
+n2=input(&quot;Enter Second Value &quot;)
+n3=int(n1)+int(n2)
+print(f&#39;sum of {n1} and {n2} is {n3}&#39;)
+Output:
+Enter First Value 100
+Enter Second Value 200
+sum of 100 and 200 is 300
+
+Example:
+&gt;&gt;&gt; int(10)
+10
+&gt;&gt;&gt; int(1.5)
+1
+&gt;&gt;&gt; int(True)
+1
+&gt;&gt;&gt; int(False)
+0
+&gt;&gt;&gt; int(1+2j)
+Traceback (most recent call last):
+File &quot;&lt;pyshell#20&gt;&quot;, line 1, in &lt;module&gt;
+int(1+2j)
+TypeError: int() argument must be a string, a bytes-like object or a real
+number, not &#39;complex&#39;
+&gt;&gt;&gt; int(&quot;65&quot;)
+65
+&gt;&gt;&gt; int(&quot;1.25&quot;)
+Traceback (most recent call last):
+File &quot;&lt;pyshell#22&gt;&quot;, line 1, in &lt;module&gt;
+int(&quot;1.25&quot;)
+ValueError: invalid literal for int() with base 10: &#39;1.25&#39;
+&gt;&gt;&gt; int(&quot;a&quot;)
+Traceback (most recent call last):
+File &quot;&lt;pyshell#23&gt;&quot;, line 1, in &lt;module&gt;
+int(&quot;a&quot;)
+ValueError: invalid literal for int() with base 10: &#39;a&#39;
+&gt;&gt;&gt; int(&quot;a&quot;,base=16)
+
+10
+&gt;&gt;&gt; int(&quot;ff&quot;,base=16)
+255
+&gt;&gt;&gt; int(&quot;ffff&quot;,base=16)
+65535
+&gt;&gt;&gt; int(&quot;1010&quot;,base=2)
+10
+&gt;&gt;&gt; int(&quot;1010&quot;)
+1010
+float() function
+This function is used to create float object or to perform the following
+conversions
+1. float to float
+2. int to float
+3. string to float
+4. bool to float
+Syntax: float(value)
+
+Example
+&gt;&gt;&gt; float(1.5)
+1.5
+&gt;&gt;&gt; float(1)
+1.0
+&gt;&gt;&gt; float(True)
+1.0
+&gt;&gt;&gt; float(False)
+0.0
+&gt;&gt;&gt; float(&quot;1.5&quot;)
+1.5
+&gt;&gt;&gt; float(&quot;15e-1&quot;)
+1.5
+&gt;&gt;&gt; float(&quot;15&quot;)
+15.0
+&gt;&gt;&gt; float(&quot;abc&quot;)
+Traceback (most recent call last):
+File &quot;&lt;pyshell#38&gt;&quot;, line 1, in &lt;module&gt;
+float(&quot;abc&quot;)
+ValueError: could not convert string to float: &#39;abc&#39;
+Example:
+# Write a program to swap/interchange two float values input from stdin
+
+a=float(input(&quot;Enter value of a &quot;))
+b=float(input(&quot;Enter value of b &quot;))
+print(f&#39;before swaping a={a} and b={b}&#39;)
+c=a
+a=b
+b=c
+print(f&#39;after swaping a={a} and b={b}&#39;)
+a,b=b,a
+print(f&#39;after swaping a={a} and b={b}&#39;)
+a=a+b
+b=a-b
+a=a-b
+print(f&#39;after swaping a={a} and b={b}&#39;)
+Output:
+
+Enter value of a 1.5
+Enter value of b 2.5
+before swaping a=1.5 and b=2.5
+after swaping a=2.5 and b=1.5
+after swaping a=1.5 and b=2.5
+after swaping a=2.5 and b=1.5
+complex()
+This function is used to create complex number (OR) perform the following
+conversions
+1. complex to complex
+2. int to complex
+3. float to complex
+4. string to complex
+5. bool to complex
