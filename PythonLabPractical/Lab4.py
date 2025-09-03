@@ -11,16 +11,18 @@ print("Countdown finished")'''
 #Write a program to count the number of characters in the string and print countdown from the number
 
 
-user_input = input("Enter a string ")
+text = input("Enter a string ")
 
-char_count = len(user_input)
+dict_ur ={}
 
-print("Number of characters:", char_count)
+for ch in range(text):
+    if(ch in text):
+        dict_ur[ch] +=1
+    else:
+        dict_ur[ch] = 1
 
-print("Countdown:")
-for i in range(char_count, 0, -1):
-    print(i)
-
+print(dict_ur)
+ 
 
 
 
