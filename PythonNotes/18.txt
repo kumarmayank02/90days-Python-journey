@@ -1,0 +1,233 @@
+“*” This operator is used to perform two operations
+1.	Multiplication
+2.	Repeating Sequence number of times
+
+Example:
+
+>>> n1=5
+>>> n2=2
+>>> n3=n1*n2
+>>> print(n1,n2,n3)
+5 2 10
+>>> f1=1.5
+>>> f2=2.5
+>>> f3=f1*f2
+>>> print(f1,f2,f3)
+1.5 2.5 3.75
+>>> r1=5*1.5
+>>> print(r1)
+7.5
+>>> r2=5*True
+>>> print(r2)
+5
+
+Example:
+
+>>> list1=[0]
+>>> list1=list1*10
+>>> print(list1)
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>> s1="abc"
+>>> s2=5*s1
+>>> print(s2)
+abcabcabcabcabc
+>>> print("-"*30)
+------------------------------
+>>> print(30*"*")
+******************************
+>>> list2=[5]*20
+>>> print(list2)
+[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+
+Example:
+# Write a program to find area of rectangle
+# area=l*b
+
+l=float(input("Enter value of l"))
+b=float(input("Enter value of b"))
+area=l*b
+print(f'area of rectangle with l={l:.2f} and b={b:.2f} is {area:.2f}')
+
+Output:
+Enter value of l1.2
+Enter value of b1.5
+area of rectangle with l=1.20 and b=1.50 is 1.80
+
+/ division operator or float division operator
+
+This operator divide two numbers and return value as float type.
+
+Example:
+q1=5/2
+print(q1)
+2.5
+>>> q2=4/2
+>>> print(q2)
+2.0
+>>> q3=4/2.0
+>>> print(q3)
+2.0
+>>> q4=4/0
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    q4=4/0
+ZeroDivisionError: division by zero
+>>> q5=0/5
+>>> print(q5)
+0.0
+
+Example:
+# Write a program to find simple interest
+# si=ptr/100
+
+p=float(input("Amount "))
+t=int(input("Time "))
+r=float(input("Rate "))
+si=p*t*r/100
+print(f'''Amount {p}
+Time {t}
+Rate {r}
+Simple Interest {si:.2f}''')
+
+Output:
+Amount 5000
+Time 12
+Rate 1.5
+Amount 5000.0
+Time 12
+Rate 1.5
+Simple Interest 900.00
+
+Example:
+# Write a program to input rollno,name 3 subject marks
+# calculate total and avg marks
+
+rollno=int(input("Rollno "))
+name=input("Name ")
+sub1=int(input("Subject1 Marks "))
+sub2=int(input("Subject2 Marks "))
+sub3=int(input("Subject3 Marks "))
+total=sub1+sub2+sub3
+avg=total/3
+print(f'''
+Rollno {rollno}\tName {name}
+Subject1 {sub1}\tSubject2 {sub2}\tSubject3 {sub3}
+Total {total}\tAvg {avg:.2f}''')
+
+Output:
+Rollno 1
+Name nk
+Subject1 Marks 50
+Subject2 Marks 70
+Subject3 Marks 90
+
+Rollno 1	Name nk
+Subject1 50	Subject270	Subject390
+Total 210	Avg 70.00
+
+
+https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true
+
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+
+// floor division operator or integer division
+
+>>> r1=5//2
+>>> print(r1)
+2
+>>> r2=5/2
+>>> print(r2)
+2.5
+>>> r3=5//2.0
+>>> print(r3)
+2.0
+>>> r4=5/2.0
+>>> print(r4)
+2.5
+
+Example:
+# Write a program to delete last digit of number
+
+num=456
+print(num)
+num=num//10
+print(num)
+
+Output:
+456
+45
+
+% modulo operator
+This operator divides two numbers and return remainder
+
+>>> rem1=5%3
+>>> print(rem1)
+2
+>>> rem2=4%2
+>>> print(rem2)
+0
+
+Example:
+# Write a program to read last digit of number
+
+num=456
+lastdigit=num%10
+print(num)
+print(lastdigit)
+
+Output:
+456
+6
+
+**power of operator or exponent operator
+
+>>> res1=5**2
+>>> print(res1)
+25
+>>> res2=5**0
+>>> print(res2)
+1
+>>> res3=10**-1
+>>> print(res3)
+0.1
+
+
+Precedence of operators
+
+The following table summarizes the operator precedence in Python, from highest precedence (most binding) to lowest precedence (least binding). Operators in the same box have the same precedence. Unless the syntax is explicitly given, operators are binary. Operators in the same box group left to right (except for exponentiation and conditional expressions, which group from right to left).
+
+
+Operator	Description
+(expressions...),
+[expressions...], {key: value...}, {expressions...}	Binding or parenthesized expression, list display, dictionary display, set display
+x[index], x[index:index], x(arguments...), x.attribute	Subscription, slicing, call, attribute reference
+await x
+Await expression
+**	Exponentiation 5
+
++x, -x, ~x	Positive, negative, bitwise NOT
+*, @, /, //, %	Multiplication, matrix multiplication, division, floor division, remainder 
++, -	Addition and subtraction
+<<, >>	Shifts
+&	Bitwise AND
+^	Bitwise XOR
+|	Bitwise OR
+in, not in, is, is not, <, <=, >, >=, !=, ==	Comparisons, including membership tests and identity tests
+not x
+Boolean NOT
+and
+Boolean AND
+or
+Boolean OR
+if – else
+Conditional expression
+lambda
+Lambda expression
+:=	Assignment expression
+
+
+

@@ -1,0 +1,340 @@
+complex()
+This function is used to create complex number (OR) perform the following conversions
+
+1.	complex to complex
+2.	int to complex
+3.	float to complex
+4.	string to complex
+5.	bool to complex
+
+Example:
+>>> comp1=complex(1+2j)
+>>> print(comp1)
+(1+2j)
+>>> print(type(comp1))
+<class 'complex'>
+>>> comp2=complex("1+2j")
+>>> print(comp2)
+(1+2j)
+>>> print(type(comp2))
+<class 'complex'>
+>>> comp3=complex("2j")
+print(comp3)
+2j
+>>> print(type(comp3))
+<class 'complex'>
+>>> comp4=complex("4")
+>>> print(comp4)
+(4+0j)
+>>> comp5=complex(1)
+>>> print(comp5)
+(1+0j)
+>>> comp6=complex(2j)
+>>> print(comp6)
+2j
+>>> print(comp6.real,comp6.imag)
+0.0 2.0
+>>> comp7=complex(True)
+>>> print(comp7,type(comp7))
+(1+0j) <class 'complex'>
+>>> comp8=complex(False)
+>>> print(comp8,type(comp8))
+0j <class 'complex'>
+>>> print(comp8.real,comp8.imag)
+0.0 0.0
+
+Example:
+# Write a program for adding two complex numbers
+
+comp1=complex(input("input complex number1 "))
+comp2=complex(input("input complex number2 "))
+comp3=comp1+comp2
+print(f'sum of {comp1} and {comp2} is {comp3}')
+
+Output:
+input complex number1 1+2j
+input complex number2 1+3j
+sum of (1+2j) and (1+3j) is (2+5j)
+
+bool() function
+This function returns Boolean value (OR) this function performs the following conversions.
+
+1.	Bool to bool
+2.	Int to bool
+3.	Float to bool
+4.	Complex to bool
+5.	String to bool
+
+Example:
+>>> b1=bool(True)
+>>> print(b1)
+True
+>>> b2=bool(False)
+>>> print(b2)
+False
+>>> b3=bool(0)
+print(b3)
+>>> False
+>>> b4=bool(1)
+>>> print(b4)
+True
+>>> b5=bool(100)
+>>> print(b5)
+True
+>>> b6=bool(-5)
+>>> print(b6)
+True
+>>> b7=bool(0.0)
+>>> print(b7)
+False
+>>> b8=bool(0.5)
+>>> print(b8)
+True
+>>> b9=bool(0+0j)
+>>> print(b9)
+False
+>>> b10=bool(1+0j)
+>>> print(b10)
+True
+>>> b11=bool("A")
+>>> print(b11)
+True
+>>> b12=bool("NARESH")
+>>> print(b12)
+True
+>>> b13=bool("False")
+>>> print(b13)
+True
+>>> b14=bool("True")
+>>> print(b14)
+True
+
+ord(),char()
+
+ord(char) 🡪 This function return ASCII value of input character
+chr(ascii) 🡪 This function return Character value of input ASCII value
+
+Example:
+>>> ord('A')
+65
+>>> ord('B')
+66
+>>> ord('C')
+67
+>>> ord('Z')
+90
+>>> ord('a')
+97
+>>> ord('b')
+98
+>>> ord('c')
+99
+>>> ord('z')
+122
+>>> chr(65)
+'A'
+>>> chr(66)
+'B'
+>>> chr(90)
+'Z'
+>>> chr(97)
+'a'
+>>> chr(98)
+'b'
+>>> chr(122)
+'z'
+
+Example:
+# Write a program to convert given character from uppercase to lowercase
+
+char='B'
+print(char)
+value=ord(char) # 66
+value=value+32
+char1=chr(value)
+print(char1)
+value=ord(char1)
+value=value-32
+char2=chr(value)
+print(char2)
+
+Output:
+B
+b
+B
+B
+
+str() function
+This function returns string object (OR) this function is used to convert other types into string type.
+
+Syntax: str(value)
+
+>>> s1=str()
+print(s1)
+
+>>> s2=str(25)
+>>> print(s2)
+25
+>>> s3=str(1.5)
+>>> print(s3)
+1.5
+>>> s2+s3
+ '251.5'
+>>> print(type(s2),type(s3))
+<class 'str'> <class 'str'>
+>>> s4=str(1+2j)
+>>> print(s4)
+(1+2j)
+>>> print(type(s4))
+<class 'str'>
+>>> s5=str(True)
+>>> print(s5)
+True
+>>> s6=str(False)
+>>> print(s6)
+False
+>>> print(type(s5),type(s6))
+<class 'str'> <class 'str'>
+
+Operators
+
+What is operator?
+Operator is a special symbol, which is used to perform operations.
+Based on the numbers of operand used to perform operation, the operators are classified into 3 categories
+1.	Unary Operator
+2.	Binary Operator
+3.	Ternary Operator
+
+Types of operators
+1.	Arithmetic Operators
+2.	Relational Operators
+3.	Logical Operators
+4.	Assignment Operators
+5.	Membership Operator
+6.	Identity Operator
+7.	Conditional Operator
+8.	Bitwise Operators
+9.	Walrus Operator (Python 3.8)
+
+
+Arithmetic Operators
+
+These operators are used to perform arithmetic operations.
+All arithmetic operators are binary operators.
+
+Operator	Description
++	Adding or Concatenation
+-	Subtraction
+*	Multiplication or Repeat
+/	Float Division
+//	Floor Division
+%	Modulo
+**	Exponent or Power
+
++ operator is used to perform two operations
+1.	Adding
+2.	Concatenating
+It performs addition, if two operands are numbers
+It performs concatenation, if two operands sequences (list, tuple, string ,…)
+
+Example:
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print(a,b,c)
+10 20 30
+>>> x=1.5
+>>> y=1.2
+>>> z=x+y
+>>> print(x,y,z)
+1.5 1.2 2.7
+>>> b1=True
+>>> b2=False
+>>> b3=b1+b2
+>>> print(b1,b2,b3)
+True False 1
+>>> b4=True+15
+>>> print(b4)
+16
+>>> c1=1+2j
+>>> c2=1+1j
+>>> c3=c1+c2
+>>> print(c1,c2,c3)
+(1+2j) (1+1j) (2+3j)
+>>> s1="Python"
+>>> s2="3.12"
+>>> s3=s1+s2
+>>> print(s1,s2,s3)
+Python 3.12 Python3.12
+>>> s4="10"
+>>> s5="15"
+>>> s6=s4+s5
+>>> print(s4,s5,s6)
+10 15 1015
+>>> s7="python"
+>>> s8=3.12
+>>> print(s7+s8)
+Traceback (most recent call last):
+  File "<pyshell#108>", line 1, in <module>
+    print(s7+s8)
+TypeError: can only concatenate str (not "float") to str
+
+eval() function
+it is a predefined function of python. This function evaluate string representation of expression and return value.
+
+eval(expression)
+
+>>> a=eval("1.5")
+>>> print(a,type(a))
+1.5 <class 'float'>
+>>> b=eval("25")
+>>> print(b,type(b))
+25 <class 'int'>
+>>> c=eval("1+2j")
+>>> print(c,type(c))
+(1+2j) <class 'complex'>
+>>> d=eval("10+20+30")
+>>> print(d)
+60
+
+Example:
+# write a program to add two numbers
+
+a=eval(input("Enter first number "))
+b=eval(input("Enter second number "))
+c=a+b
+print(f'sum of {a} and {b} is {c}')
+
+Output
+Enter first number 10
+Enter second number 20
+sum of 10 and 20 is 30
+
+Enter first number 1.5
+Enter second number 1.2
+sum of 1.5 and 1.2 is 2.7
+
+Enter first number 1+2j
+Enter second number 1+1j
+sum of (1+2j) and (1+1j) is (2+3j)
+
+-	Operator (arithmetic subtract operator)
+
+This operator is used for subtraction of two numbers.
+
+>>> a=10
+>>> b=1.5
+>>> c=a-b
+>>> print(a,b,c)
+10 1.5 8.5
+>>> c1=1+2j
+>>> c2=1j
+>>> c3=c1-c2
+>>> print(c1,c2,c3)
+(1+2j) 1j (1+1j)
+>>> c3=c1-2
+>>> print(c3)
+(-1+2j)
+
+
+
