@@ -1,0 +1,189 @@
+Using multiple conditional operator
+Multiple conditional operators are used to check more than one condition.
+
+Example:
+# Write a program to find input character is vowel or not
+
+ch=input("Enter Single Character ")
+print("Vowel") if ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u' else print("not vowel")
+
+Output:
+Enter Single Character i
+Vowel
+
+Enter Single Character x
+not vowel
+
+Example:
+# Write a program to find input number is +ve,-ve or zero
+
+num=int(input("Enter any number "))
+print("+ve") if num>0 else print("-ve") if num<0 else print("zero")
+
+Output:
+Enter any number 5
++ve
+
+Enter any number -6
+-ve
+
+Enter any number 0
+Zero
+
+Example:
+# Write a program to find input character is alphabet,digit or special character
+
+ch=input("Enter any character ")
+print("alphabet") if ch>='A' and ch<='Z' or ch>='a' and ch<='z' else print("Digit") if ch>='0' and ch<='9' else print("special character") 
+
+Output:
+Enter any character a
+alphabet
+
+Enter any character A
+alphabet
+
+Enter any character 7
+Digit
+
+Enter any character *
+special character
+ord('A')
+65
+>>> ord('Z')
+90
+>>> ord('a')
+97
+>>> ord('z')
+122
+>>> ord('0')
+48
+>>> ord('9')
+57
+>>> 'A'>'B'
+False
+>>> chr(65)
+'A'
+>>> chr(97)
+'a'
+
+
+not operator
+not is a unary operator, this operator required 1 operand
+truth table of not operator
+Opr1	Not Opr1
+True	False
+False	True
+
+Not operator is used with other operator.
+Example: not>,not in, is not
+
+Example:
+>>> not True
+False
+>>> not False
+True
+>>> not 100
+False
+>>> not 0
+True
+
+Membership operator
+Membership operator is binary operator
+This operator required two operands
+Membership operator is represented using “in” keyword
+
+1.	In
+2.	Not in
+
+Membership operator is used with collection data types for searching given value in collection values.
+
+Syntax: value/object in collection
+
+In operator returns Boolean value (True/False)
+
+
+
+Example
+>>> "a" in "java"
+True
+>>> "python" in "best programming language to learn is python"
+True
+>>> 10 in [10,20,30,40]
+True
+>>> 100 in [10,20,30,40]
+False
+>>> "nk@nkit.com" in ["suresh@gmail.com","kishore@nkit.com"]
+False
+>>> 10 not in [10,20,30,40,50]
+False
+>>> 100 not in [10,20,30,40,50]
+True
+
+Example:
+# Write a program to find input character is vowel
+
+ch=input("Enter any character ")
+print("vowel") if ch in "aeiouAEIOU" else print("not vowel")
+
+Output
+Enter any character a
+vowel
+
+Enter any character x
+not vowel
+
+Identity Operator
+Identity operator is a binary operator
+Identity operator is represented using “is” keyword.
+Identity operator is used to compare references or identity of object.
+
+1.	is
+2.	is not
+is operator returns True, if two variables pointing to same object inside memory, else return False
+is not operator return True, if two variables are not pointing to same object inside memory else return False
+
+Every object is having identity, this identity is called address.
+
+ 
+ 
+
+
+
+
+
+
+What is difference between == and is operator in python?
+==	Is
+It is a relational operator	It is identity operator
+This operator is used to compare values of object (OR) object equality	This operator is used to compare identity of objects. If two variables are pointing to same object in memory this operator returns True else return False.
+
+>>> a=10
+>>> b=10
+>>> a==b
+True
+>>> id(a)
+140715736550104
+>>> id(b)
+140715736550104
+>>> a is b
+True
+>>> list1=[10,20,30]
+>>> list2=[10,20,30]
+>>> list1==list2
+True
+>>> list1 is list2
+False
+>>> list3=list1
+>>> list1 is list3
+True
+
+Walrus Operator (Python 3.8)
+:= is called walrus operator or assignment expression operator
+
+
+
+
+
+
+

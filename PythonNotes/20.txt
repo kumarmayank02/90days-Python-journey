@@ -1,0 +1,268 @@
+Relational Operators
+Relational operators are used for comparing values. An expression created using relational operators is called Boolean expression. Boolean expression always returns Boolean value (True/False)
+
+Operators	Description
+>	Greater than
+<	Less than
+>=	Greater than or equal
+<=	Less than or equal
+==	Equal
+!=	Not equal
+
+These operators are used to compare object values or state.
+
+Example:
+>>> 10>5
+True
+>>> 20>30
+False
+>>> 20<30
+True
+>>>10<5
+False
+>>>10>=10
+True
+>>>10>=5
+True
+>>>10<=10
+True
+>>> 5<=10
+True
+>>> 20<=10
+False
+>>> 10==10
+True
+>>> 10==20
+False
+>>> 10!=10
+False
+>>> 10!=20
+True
+>>> "A">"B"
+False
+>>> "B">"A"
+True
+>>> "a">"A"
+True
+>>> a=5
+>>> 1<=a<=10
+True
+>>> a=20
+>>> 1<=a<=10
+False
+>>> 5>=1<=10
+True
+
+Conditional Operator
+Conditional operator is a ternary operator, this operator required 3 operands. Condition operator is used for creating conditional expression. Conditional operators allow evaluating expression based on condition/test.
+
+Syntax:
+<variable-name>=opr1 if opr2 else opr3
+
+ 
+
+Example:
+# Write a program to find a person is elg to vote or not
+
+name=input("Enter Name ") 
+age=int(input("Enter Age "))
+result=f'{name} is elg to vote ' if age>=18 else f'{name} is not elg vote'
+print(result)
+
+Output:
+Enter Name suresh
+Enter Age 30
+suresh is elg to vote 
+
+Enter Name kishore
+Enter Age 14
+kishore is not elg vote
+
+Example:
+# Write a program to find input number is even or odd
+
+num=int(input("Enter any number "))
+rem=num%2
+a=f'{num} is even' if rem==0 else f'{num} is odd'
+print(a)
+
+Output:
+Enter any number 4
+4 is even
+
+Enter any number 9
+9 is odd
+
+Example:
+# Write a program to find max of two numbers
+
+num1=int(input("Enter First Number "))
+num2=int(input("Enter Second Number "))
+res=f'{num1} is max' if num1>num2 else f'{num2} is max'
+print(res)
+
+Output:
+Enter First Number 10
+Enter Second Number 5
+10 is max
+
+Enter First Number 5
+Enter Second Number 20
+20 is max
+
+Enter First Number 10
+Enter Second Number 10
+10 is max
+
+Logical Operators
+Logical operators are used to combine two or more conditions or boolean expressions. In python logical operators are represented using 3 keywords.
+
+1.	and   🡪 Binary Operator
+2.	or  🡪 Binary Operator
+3.	not 🡪 Unary Operator
+
+and operator
+truth table of and operator
+Opr1	Opr2	Opr1 and Opr2
+True	False	False
+False	True	False
+False	False	False
+True	True	True
+
+Example:
+>>> True and True
+True
+>>> True and False
+False
+>>> False and True
+False
+>>> False and False
+False
+>>> 10>5 and 10>20
+False
+>>> 10>20 and 10>5
+False
+
+Example:
+# Write a program to read name and 2 subject marks
+# calculate total,avg and result
+
+name=input("Enter Name ")
+sub1=int(input("Enter Subject1 Marks "))
+sub2=int(input("Enter Subject2 Marks "))
+total=sub1+sub2
+avg=total/2
+result="pass" if sub1>=40 and sub2>=40 else "fail"
+print(f'''Name {name}
+Subject1 {sub1}
+Subject2 {sub2}
+Total {total}
+Avg {avg:.2f}
+Result {result}''')
+
+Output:
+Enter Name nk
+Enter Subject1 Marks 70
+Enter Subject2 Marks 80
+Name nk
+Subject1 70
+Subject2 80
+Total 150
+Avg 75.00
+Result pass
+
+Enter Name suresh
+Enter Subject1 Marks 30
+Enter Subject2 Marks 99
+Name suresh
+Subject1 30
+Subject2 99
+Total 129
+Avg 64.50
+Result fail
+
+Example:
+>>> 100 and 200
+200
+>>> 0 and 100
+0
+>>>100 and 200 and 300
+300
+>>>100 and 0 and 300
+0
+>>> "java" and "python"
+'python'
+>>> "A" and "B"
+'B'
+>>> bool(100)
+True
+>>> bool(0)
+False
+
+Example:
+# Login Application
+
+user=input("UserName :") # nit
+pwd=input("Password :") # nit123
+
+print("Welcome") if user=="nit" and pwd=="nit123" else print("invalid username or password")
+
+Output:
+UserName :nk
+Password :nit123
+invalid username or password
+
+UserName :nit
+Password :nk
+invalid username or password
+>>> 
+UserName :nit
+Password :nit123
+Welcome
+
+or operator
+truth table
+Opr1 	Opr2	Opr1 or Opr2
+True	True	True
+True	False	True
+False	True	True
+False	False	False
+
+If any operand is True, the complete expression return True.
+If opr1 is True, PVM return result of opr1 without evaluating opr2
+If opr1 is False, PVM evaluates opr2 and return result of opr2
+
+True or False
+True
+>>> False or True
+True
+>>> False or False
+False
+>>> 100 or 200
+100
+>>> 100 or 200 or 300
+100
+
+Precedence of logical operator
+1.	not
+2.	and
+3.	or
+
+Example:
+>>> 100 or 200
+100
+>>> 100 or 200 or 300
+100
+>>> 100 or 200 and 300
+100
+>>> 200 and 300 or 100
+300
+>>> 0 and 100 or 200
+200
+
+t.me/fspy5
+
+
+
+
+
