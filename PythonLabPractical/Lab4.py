@@ -11,19 +11,15 @@ print("Countdown finished")'''
 #Write a program to count the number of characters in the string and print countdown from the number
 
 
-text = input("Enter a string ")
-
+'''text = input("Enter a string ")
 dict_ur ={}
-
 for ch in range(text):
     if(ch in text):
         dict_ur[ch] +=1
     else:
         dict_ur[ch] = 1
-
 print(dict_ur)
- 
-
+'''
 
 
 
