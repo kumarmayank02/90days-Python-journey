@@ -1,0 +1,213 @@
+
+Command line arguments
+The values send to python program from command prompt or command line is called command line arguments.
+
+Command line arguments are used to develop utilities or tools or commands in python.
+
+The values send from command prompt are stored in one variable called argv. It is a predefined variable/object exists in sys module.
+
+ 
+
+ 
+How to execute program with command line arguments in IDLE?
+
+Select 🡪 Run 🡪 Run Customized
+
+ 
+
+Control Statements
+
+1.	Conditional Control Statements
+a.	If
+b.	Match
+2.	Looping control Statements
+a.	While
+b.	For
+c.	Nested looping
+3.	Branching Statements
+a.	Break
+b.	Continue
+c.	Pass
+d.	Return
+
+
+Control statements are used to control the flow of execution of program.
+
+Control statements are three types
+
+1.	Conditional control statements
+2.	Looping control statements
+3.	Branching statements
+
+Conditional Control Statements
+Python support two conditional control statements
+1.	if
+2.	match (python 3.10)
+
+Conditional control statements are used to execute block of statements based on condition or selection.
+
+If statement
+if is keyword which represent conditional statement.
+
+Types of if syntax
+1.	simple if
+2.	if..else
+3.	if..elif..else (if..else ladder)
+4.	nested if
+
+simple if
+
+if without else is called simple if.
+
+Syntax:
+
+If <condition>:
+    Statement-1
+    Statement-2
+Statement-3
+
+If condition is True, PVM executes Statement-1,Statement-2 and Statement-3
+If condition is False, PVM executes statement-3	 
+
+
+
+In python block must have one statement.s
+
+
+Example:
+if 10>5:
+    print("Python")
+print("Hello")
+
+if 5>10:
+    print("Java")
+print("Bye")
+
+if 2>10:
+    print(".Net")
+    print("Good")
+
+Output:
+Python
+Hello
+Bye
+
+Example:
+if 10>5:
+    pass
+
+print("a")
+print("b")
+
+Output:
+a
+b
+
+pass keyword
+The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed. Empty code is not allowed in loops, function definitions, class definitions, or in if statements.
+
+
+
+
+
+
+Example:
+if 10>5:
+    pass
+    print("Hello")
+
+Output:
+Hello
+
+If..else
+
+This syntax is having two blocks
+1.	if block
+2.	else block
+
+Syntax:
+
+If <condition>:
+   Statement-1
+   Statement-2
+else:
+   Statement-3
+   Statement-4
+
+Statement-5
+
+If condition is True, PVM executes Statement-1,Statement-2 and Statement-5
+If condition is False, PVM executes Statement-3, Statement4 and Statement-5
+	 
+
+
+Example:
+
+# Write a program to verify input number divisible with 7 or not
+
+num=int(input("Enter any number "))
+if num%7==0:
+    print(f'{num} is divisible with 7')
+else:
+    print(f'{num} is not divisible with 7')
+
+Output:
+Enter any number 14
+14 is divisible with 7
+
+Enter any number 12
+12 is not divisible with 7
+
+Example:
+
+# Write a program to display "Hello" if input number is multiples of 5 else display "Bye"
+
+num=int(input("Enter any Number "))
+if num%5==0:
+    print("Hello")
+else:
+    print("Bye")
+
+
+
+Output:
+Enter any Number 20
+Hello
+
+Enter any Number 22
+Bye
+
+
+
+
+
+
+
+
+
+
+
+
+Home Work
+
+1.	Write a program to find input year is leap or not
+2.	Write a program to find input number last digit is even or odd
+3.	Write a program to check input number is 3 digit or not
+4.	Write a program to check a person is senior citizen or not
+5.	Write a program to find minimum value of input two values
+6.	Write a program to find input number is +ve or –ve
+7.	Write a program to find input number is divisible 2 and 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
