@@ -1,0 +1,255 @@
+
+if..elif..else (if..else ladder)
+
+This syntax allows checking more than one condition. 
+Syntax:
+
+If condition1:
+   Statement-1
+elif condition2:
+   Statement-2
+elif condition3:
+   Statement-3
+…
+else:
+   Statement-n
+
+
+If condition1 is True PVM execute Statement-1
+If condition1 is False and Condition2 is True, PVM executes statement-2
+If condition1,condition2 is False and condition3 is True, PVM executes Statement-3
+If all conditions are False, PVM executes Statement-n	 
+
+
+
+
+
+
+
+Example:
+
+# Write a program to find input character is alphabet,digit or sepcial character
+
+ch=input("Enter any character ")
+if ch>='A' and ch<='Z' or ch>='a' and ch<='z':
+    print("alphabet")
+elif ch>='0' and ch<='9':
+    print("digit")
+else:
+    print("special character")
+    
+Output:
+Enter any character a
+alphabet
+
+Enter any character 5
+digit
+
+Enter any character $
+special character
+
+https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true
+
+
+
+
+
+
+
+n=int(input())
+if n%2!=0:
+    print("Weird")
+elif n>=2 and n<=5:
+    print("Not Weird")
+elif n>=6 and n<=20:
+    print("Weird")
+elif n>20:
+    print("Not Weird")
+
+ 
+
+units=int(input("Enter units"))
+if units<=100:
+    amt=0
+elif units>100 and units<=200:
+    amt=(units-100)*5
+else:
+    amt=0+500+(units-200)*10
+print(f'Amount {amt}')
+
+
+
+
+ 
+
+
+p=int(input("Enter Percentage"))
+if p>90:
+    print("A")
+elif p>80 and p<=90:
+     print("B")
+elif p>=60 and p<=80:
+    print("C")
+else:
+    print("D")
+
+
+
+
+
+
+
+
+
+    
+ 
+
+cost=int(input("Enter Bike Price :"))
+if cost>100000:
+    tax=cost*15/100
+elif cost>50000 and cost<=100000:
+    tax=cost*10/100
+else:
+    tax=cost*5/100
+
+print(f'Bike Price {cost}')
+print(f'Road Tax {tax:.2f}')
+
+
+
+ 
+
+
+
+
+
+salary=int(input("Enter Salary "))
+service=int(input("Enter Service "))
+if service>10:
+    bonus=salary*10/100
+elif service>=6 and service<=10:
+    bonus=salary*8/100
+else:
+    bonus=salary*5/100
+
+print(f'Salary {salary}')
+print(f'Bonus {bonus}')
+
+Output:
+Enter Salary 50000
+Enter Service 12
+Salary 50000
+Bonus 5000.0
+
+Enter Salary 30000
+Enter Service 7
+Salary 30000
+Bonus 2400.0
+
+
+
+
+
+
+
+
+
+
+Example:
+# Write a program to convert input alphabet into uppercase to lower case,
+# lowercase to uppercase
+
+ch=input("Enter any character ")
+if ch>='a' and ch<='z':
+    ch=chr(ord(ch)-32)
+    print(ch)
+elif ch>='A' and ch<='Z':
+    ch=chr(ord(ch)+32)
+    print(ch)
+else:
+    print("input character must be alphabet")
+
+Output:
+Enter any character $
+input character must be alphabet
+
+Enter any character 7
+input character must be alphabet
+
+Enter any character a
+A
+
+Enter any character A
+A
+
+
+
+
+
+Nested if
+
+If within if is called nested if.
+Syntax:
+
+If condition1:
+   If condition2:
+       Statement-1
+   else:
+       Statement-2
+elif condition3:
+   if condition4:
+        Statement-3
+   Else:
+       Statement-4
+else:
+Statement-5
+ 
+
+Example:
+# Login Application
+
+user=input("UserName ")
+if user=="nit":
+    pwd=input("Password ")
+    if pwd=="nit123":
+        print("Welcome")
+    else:
+        print("invalid password")
+else:
+    print("invalid username")
+
+Output:
+UserName abc
+invalid username
+
+UserName nit
+Password nit123
+Welcome
+
+Example:
+# Write program to login with OTP
+
+import random
+user=input("UserName ")
+otp=random.randint(1000,9999)
+print(f'{user} please Login with OTP {otp}')
+otp1=int(input("OTP :"))
+if otp1==otp:
+    print(f'{user} welcome')
+else:
+    print("invalid OTP")
+
+Output:
+UserName nk
+nk please Login with OTP 2602
+OTP :2602
+nk welcome
+
+UserName suresh
+suresh please Login with OTP 9425
+OTP :9424
+invalid OTP
+
+match statement
+
+
