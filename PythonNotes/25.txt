@@ -1,0 +1,261 @@
+
+match statement
+match is selection statement.
+match statement execute block of statements based selection of value.
+match is softkeyword in python.
+match statement is introduced in python 3.10 version
+
+Syntax:
+
+match(expression/value):
+    case <pattern>:
+       statement-1
+    case <pattern>:
+       statement-2
+    case <pattern>:
+       statement-3
+    case _:
+       statement-x
+
+
+PVM read value and compare with all the cases, if equals to any case, PVM execute that block and terminates.
+If value is not equal to any case, PVM executes default case which is defined _
+
+
+
+
+
+
+
+
+Example:
+
+# Write a program to input digit [0-9] and print in word
+# input : 4
+# output :Four
+
+digit=int(input("Enter any Digit (0-9): "))
+match(digit):
+    case 0:
+        print("Zero")
+    case 1:
+        print("One")
+    case 2:
+        print("Two")
+    case 3:
+        print("Three")
+    case 4:
+        print("Four")
+    case 5:
+        print("Five")
+    case 6:
+        print("Six")
+    case 7:
+        print("Seven")
+    case 8:
+        print("Eight")
+    case 9:
+        print("Nine")
+    case _:
+        print("Invalid Digit")
+
+Output:
+Enter any Digit (0-9): 3
+Three
+
+Enter any Digit (0-9): 9
+Nine
+
+Enter any Digit (0-9): 10
+Invalid Digit
+
+Example:
+print("****Menu****")
+print("1.Area of Circle")
+print("2.Area of Triangle")
+print("3.Area of Rectangle")
+print("4.Exit")
+opt=int(input("Enter Your Option [1-4] "))
+match(opt):
+    case 1:
+        r=float(input("Enter R Value "))
+        area=3.147*r*r
+        print(f'Area of Circle is {area:.2f}')
+    case 2:
+        base=float(input("Enter Base Value "))
+        height=float(input("Enter Height Value "))
+        area=0.5*base*height
+        print(f'Area of Triangle {area:.2f}')
+    case 3:
+        l=float(input("Enter L Value "))
+        b=float(input("Enter B Value "))
+        area=l*b
+        print(f'Area of Rectangle {area:.2f}')
+
+
+    case 4:
+        print("Thank You...")
+    case _:
+        print("Invalid Option Try again...")
+
+Output:
+****Menu****
+1.Area of Circle
+2.Area of Triangle
+3.Area of Rectangle
+4.Exit
+Enter Your Option [1-4] 2
+Enter Base Value 1.2
+Enter Height Value 1.5
+Area of Triangle 0.90
+
+****Menu****
+1.Area of Circle
+2.Area of Triangle
+3.Area of Rectangle
+4.Exit
+Enter Your Option [1-4] 1
+Enter R Value 1.5
+Area of Circle is 7.08
+
+
+
+
+
+
+
+Example:
+# Write a program to find input character is vowel or not
+
+ch=input("Enter any character ")
+match(ch):
+    case  'a':
+        print("vowel")
+    case 'e':
+        print("vowel")
+    case 'i':
+        print("vowel")
+    case 'o':
+        print("vowel")
+    case 'u':
+        print("vowel")
+    case _:
+        print("not vowel")
+        
+Output:
+Enter any character e
+vowel
+
+Enter any character x
+not vowel
+
+
+
+
+
+
+
+
+Example:
+>>> list1=[10,20,30,40,50]
+>>> match(list1):
+...     case [10,20,30,40,50]:
+...         print("Hello")
+
+
+
+
+
+
+
+Looping Control Statements
+Looping control statements are used to repeat one or more than one statement number of times or until given condition.
+
+Python support 2 Looping control statements
+1.	while 
+2.	for 
+
+while loop
+
+“while” keyword represents while loop
+While loop execute given block of statements until given condition is True.
+
+Syntax:
+
+while <condition>:
+     statement-1
+     statement-2
+
+PVM repeat statement-1,statement-2 until given condition is True.	 
+
+
+While loop required 3 statements
+1.	initialization statement
+2.	condition
+3.	update statement
+
+Initialization statement defines initial value of condition.
+Condition is a Boolean expression which defines how many times while loop has to execute.
+Update statement, which updates condition.
+
+
+ 
+
+Example:
+# Write a program to input 5 numbers and print sum
+
+i=1
+s=0
+while i<=5:
+    value=int(input("Enter Value "))  
+    s=s+value
+    i=i+1
+
+print(f'Sum is {s}')
+
+Output:
+Enter Value 10
+Enter Value 40
+Enter Value 20
+Enter Value 40
+Enter Value 50
+Sum is 160
+
+Example:
+i=0
+while i<=5:
+    print("Hello")
+    i=i+1
+
+j=1
+while j<=5:
+    print("Bye")
+    j=j+2
+
+k=1
+while k>=5:
+    print("java")
+    k=k+1
+
+p=5
+while p>=1:
+    print("Python")
+    p=p-1
+
+Output:
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Bye
+Bye
+Bye
+Python
+Python
+Python
+Python
+Python
+
+
